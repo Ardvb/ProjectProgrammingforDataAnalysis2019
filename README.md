@@ -60,6 +60,7 @@ Here I explained all 5 variables and their distributions:
 - IQ
 - Height
 
+I chose to use integers for all variables, as that is the common way they are used in other datasets I found.
 I explain which distribution I chose and why. I base my simulated data on scientific sources I found online.
 This part was fairly straightforward. Using Numpy.random and Pandas to create the first version of the dataset, simulating 1000 values of each of the 5 variables, was also easy enough. The next part was tougher.
 
@@ -75,6 +76,9 @@ I ended up creating a function that used my correlation matrix and the standardd
 In the final part I use the Seaborn package to visualize the dataset and check if the correlations are correctly implemented. 
 I used a pairplot for a quick overview of all correlations, and a few lmplots to have a closer look at a few interesting correlations.
 
+![image](https://user-images.githubusercontent.com/47186083/69770659-d62dca80-1181-11ea-9775-247d862b1d76.png)
+
+In above pairplot all correlations can be seen. They are as close as I could get to the real life correlations. The one that shocked me was the clear negative correlation between height and life expectancy!
 
 ## Packages used
 
