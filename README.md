@@ -1,12 +1,13 @@
 # ProjectProgrammingforDataAnalysis2019
 
-# Life expectancy of people in Ireland
+## Arnoud van Balkom
 
-### Variables:
-- Sex (Male/Female)
-- Yearly income (or socio economic status)
-- Smoker yes/no (if data is available amount of cigarettes per week)
-- BMI (Should be sort of normal distribution with a sweet spot)
-- Alcohol intake in units per week
-- Exercise (hours per week)
-- Education level
+# Life expectancy of males in Ireland
+
+
+### Variables used:
+- Life expectancy
+- Birth weight
+- Birth province
+- IQ
+- Height
