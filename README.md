@@ -46,23 +46,33 @@ data set itself can simply be displayed in an output cell within the notebook.
 
 Note that this project is about simulation – you must synthesise a data set.
 
-### Variables used:
+### What exactly is in this repository
 
-- Life expectancy
-- Birth weight
-- Birth province
+The end result is a simulated dataset with 1000 values for each of the variables, correlated in a realistic way.
+
+## Part 1: Variables explained and first version of dataset
+
+Here I explained all 5 variables and their distributions:
+
+- Life expectancy in years for males in Ireland
+- Birth weight in grams
+- Birth place by province
 - IQ
 - Height
 
-### What exactly is in this repository
+I explain which distribution I chose and why. I base my simulated data on scientific sources I found online.
+This part was fairly straightforward. Using Numpy.random and Pandas to create the first version of the dataset, simulating 1000 values of each of the 5 variables, was also easy enough. The next part was tougher.
 
-I have created a dataset containing 5 different variables, all in some way correlated to life expectancy. Or so I thought.  First I investigated the variables involved, their distributions and their relationship with each other. And I found out my variable <em> birth province </em> had no correlation to any of the other variables. Therefore I decided to take this variable out of the second part this project.
+## Part 2: Relationships between the variables
 
-## Variables explained
+In this part I try to find the correct correlations between each of the variables. I got rid of <em> birth province </em> because I found no correlation at all with any of the variables, so it seemed superfluous to include it in this part about relationships.
 
-### Life expectancy
+I spend a few hours figuring out realistic correlations between the variables, and then a good few hours more trying to figure out how to code the correlations into the dataset. I just would not work for me. Then finally I found a website [$^{1}$](https://realpython.com/python-random/)
 
-This variable is central in this dataset. It is the life expectancy in years of males in Ireland. It turned out 
+
+
+
+
 
 
 
@@ -81,3 +91,8 @@ Matplotlib is the plotting library of Numpy. It provides an object-oriented API 
 
 ### - Pandas
 Pandas is a library providing high-performance, and easily usable data structures and data analysis tools for Python. It is built on top of Numpy, so that means Numpy is required by Pandas. I have used it to read in the excel file containing the Iris date set, amongst other things.
+
+## References
+
+1. https://realpython.com/python-random/
+
