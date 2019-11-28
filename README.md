@@ -73,6 +73,7 @@ I ended up creating a function that used my correlation matrix and the standardd
 ## Part 3: Visualizations and data check
 
 In the final part I use the Seaborn package to visualize the dataset and check if the correlations are correctly implemented. 
+I used a pairplot for a quick overview of all correlations, and a few lmplots to have a closer look at a few interesting correlations.
 
 
 ## Packages used
