@@ -67,15 +67,12 @@ This part was fairly straightforward. Using Numpy.random and Pandas to create th
 
 In this part I try to find the correct correlations between each of the variables. I got rid of <em> birth province </em> because I found no correlation at all with any of the variables, so it seemed superfluous to include it in this part about relationships.
 
-I spend a few hours figuring out realistic correlations between the variables, and then a good few hours more trying to figure out how to code the correlations into the dataset. I just would not work for me. Then finally I found a website [<sup>1<sup>](https://realpython.com/python-random/)
+I spend a few hours figuring out realistic correlations between the variables, and then a good few hours more trying to figure out how to use python code the integrate those correlations into the final dataset. I just would not work for me. I could not figure out how to include the standard deviation into the formula for the correlation. Then finally I found a website that got me on the right track. [<sup>1<sup>](https://realpython.com/python-random/)
+I ended up creating a function that used my correlation matrix and the standarddeviations of the normally distributed variables and by multiplying the matrices I finally found a way to take the standarddeviations into account. Now I could create my final dataset of correlated values, which was the main goal of this project.
 
+## Part 3: Visualizations and data check
 
-
-
-
-
-
-
+In the final part I use the Seaborn package to visualize the dataset and check if the correlations are correctly implemented. 
 
 
 ## Packages used
