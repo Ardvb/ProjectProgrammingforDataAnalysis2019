@@ -43,6 +43,7 @@ relationships with each other.
 - Synthesise/simulate a data set as closely matching their properties as possible.
 - Detail your research and implement the simulation in a Jupyter notebook – the
 data set itself can simply be displayed in an output cell within the notebook.
+
 Note that this project is about simulation – you must synthesise a data set.
 
 ### Variables used:
