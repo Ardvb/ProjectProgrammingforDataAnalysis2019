@@ -47,9 +47,37 @@ data set itself can simply be displayed in an output cell within the notebook.
 Note that this project is about simulation – you must synthesise a data set.
 
 ### Variables used:
+
 - Life expectancy
 - Birth weight
 - Birth province
 - IQ
 - Height
 
+### What exactly is in this repository
+
+I have created a dataset containing 5 different variables, all in some way correlated to life expectancy. Or so I thought.  First I investigated the variables involved, their distributions and their relationship with each other. And I found out my variable <em> birth province </em> had no correlation to any of the other variables. Therefore I decided to take this variable out of the second part this project.
+
+## Variables explained
+
+### Life expectancy
+
+This variable is central in this dataset. It is the life expectancy in years of males in Ireland. It turned out 
+
+
+
+
+
+## Packages used
+
+### - Numpy
+Numpy is a fundamental library for scientific computing in Python. It adds support for large, multi dimensional arrays and matrices. It also includes a large collection of high level mathematical functions to operate on these arrays.
+
+### - Seaborn
+Seaborn is a Python visualization library based on matplotlib, providing a high-level interface for drawing statistical graphics. I found this library to be easy to use and used it to plot swarmplots and scatterplots.
+
+### - Matplotlib
+Matplotlib is the plotting library of Numpy. It provides an object-oriented API for embedding plots into applications. I used this library to plot histograms, amongst other things.
+
+### - Pandas
+Pandas is a library providing high-performance, and easily usable data structures and data analysis tools for Python. It is built on top of Numpy, so that means Numpy is required by Pandas. I have used it to read in the excel file containing the Iris date set, amongst other things.
