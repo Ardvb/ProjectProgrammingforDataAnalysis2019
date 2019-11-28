@@ -67,7 +67,7 @@ This part was fairly straightforward. Using Numpy.random and Pandas to create th
 
 In this part I try to find the correct correlations between each of the variables. I got rid of <em> birth province </em> because I found no correlation at all with any of the variables, so it seemed superfluous to include it in this part about relationships.
 
-I spend a few hours figuring out realistic correlations between the variables, and then a good few hours more trying to figure out how to code the correlations into the dataset. I just would not work for me. Then finally I found a website [$^{1}$](https://realpython.com/python-random/)
+I spend a few hours figuring out realistic correlations between the variables, and then a good few hours more trying to figure out how to code the correlations into the dataset. I just would not work for me. Then finally I found a website [<sup>1<sup>](https://realpython.com/python-random/)
 
 
 
