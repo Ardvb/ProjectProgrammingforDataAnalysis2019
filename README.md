@@ -83,6 +83,8 @@ I used a pairplot for a quick overview of all correlations, and a few lmplots to
 
 In above pairplot all correlations can be seen. They are as close as I could get to the real life correlations. The one that shocked me was the clear negative correlation between height and life expectancy!
 
+I had planned a part 4 where I would investigate if the **nearest neighbors** method that Sklearn offers us, could be used to predict the life expectancy, using the other 3 variables. However, I found it did so very poorly and was of no real use, so I decided to get rid of this chapter.
+
 ## Packages used
 
 ### - Numpy
