@@ -1,10 +1,31 @@
-# ProjectProgrammingforDataAnalysis2019
+# ProjectProgrammingforDataAnalysis GMIT 2019
 
-## Arnoud van Balkom
+## Author: Arnoud van Balkom
 
 # Life expectancy of males in Ireland
 
 ![image](https://user-images.githubusercontent.com/47186083/69768433-6ff07a00-1178-11ea-9d8e-884eef66e203.png)
+
+## Getting started
+
+Follow these steps to download this repository:
+
+- Go to my repository on Github: https://github.com/Ardvb/ProjectProgrammingforDataAnalysis2019
+- Click the clone or download button.
+- Save the repository to your device.
+- To run the program open a command interface and navigate to the folder in which the repository was saved.
+
+## Jupyter Notebook
+
+I used a Jupyter notebook to display my work. The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more. https://jupyter.org/
+
+## Running my Jupiter Notebook
+
+- Install Jupyterlab. This is part of the Anaconda package, that can be downloaded here: https://www.anaconda.com/distribution/
+- Navigate to the folder where the repository has been downloaded on the command line.
+- type: Jupyter Notebook
+- From the 'home' page, click on the file called "Project2019.ipynb"
+- For more information on how to use Jupyter Notebook go to the Help section in the toolbar on the top of your screen.
 
 ### This repository contains my solution to below problem statement
 
