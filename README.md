@@ -102,4 +102,3 @@ Pandas is a library providing high-performance, and easily usable data structure
 ## References
 
 1. https://realpython.com/python-random/
-
